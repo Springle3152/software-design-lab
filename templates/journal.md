@@ -126,3 +126,31 @@ Hour 3: wrote the description of the static site I want developed (this was the 
 Hour 4: figured out how to push my project description assignment to GitHub as a new .md file, and put it on GitHub
 
 I’m afraid that was it for this week. I’ll have more to say in next week’s journal. 
+
+## Week Ten (3/28 to 4/3)
+
+This week I did some more exercises from Learn Python the Hard Way. I feel like I'm not totally getting it but I'm forging ahead hoping that there will be a eureka moment. 
+
+Hour 1: LPTHW exx 20, 21, 22
+
+Hour 2: LPTHW exx 23, 24, 25, 26
+
+On Monday 4/1 Chris and I met to code together in my office at CCNY. We ended up working on the oral history app we’re developing for Thomas. It was a lot of fun and instructive, but we absolutely did not create anything we’ll be able to use. This is because we decided to build the app as a website with html and css. I know, funny approach. I had my doubts, and Chris had his, but after discussing what we understood Thomas wanted, we were itching to code so we went ahead and built a very simple website. It’s very simple so don’t expect anything wild. Here’s the code: https://github.com/Springle3152/software-design-lab/blob/master/oral-history/index.html 
+
+Because Thomas had told us that the oral history app would serve to record the histories of people such as, for example, the owner of the local grocery store, Chris and I looked for pictures of grocery stores in the public domain and found the coolest, happiest picture ever and put it in the website. It still feels like magic when I create a super simple anything in code and then see it on a browser. 
+
+We shared our work on GitHub and pledged to work from there. It would probably been easier but more pedestrian to share by email (I refuse to use Google docs or Google drive or Google anything if I can help it) because we’re not super familiar with GitHub yet, although I’m feeling very comfortable doing the things I know how to do. Thomas and I both need to be contributors to the oral-history file I created in my software-design-lab repository, but he lost his internet connection, so we put that on hold.
+
+Hour 3: worked on wireframe for oral history app with Chris
+
+Hour 4: built prototype of website for oral history app with Chris
+
+Hour 5: pushed files to my software-design-lab repository on GitHub, planned next steps for developing the oral history app, added next steps in a notes.md file, and lost internet connection
+
+Hour 6: tried to get Chris connected to the internet. Gave up. Decided to go to a digital branding workshop at the GC. Had a subway adventure and got there 20 minutes late but the workshop was awesome.
+
+Hour 7: tried to figure out how we could use SQL to create user accounts and/or upload oral histories on app (website now, but we have a growing suspicion that this is not the way to go).
+
+## Week Eleven (4/4 to 4/10)
+
+## Week Twelve (4/11 to 4/17)
