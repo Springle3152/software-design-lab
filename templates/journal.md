@@ -164,5 +164,27 @@ I found this but I think it’s a joke: http://neverssl.com
 
 I did some more research and see that it’s my browser that’s automatically switching me to https. I found a thread in the Mozilla support forum where someone explains how to disable https by typing about:config and toggling browser.urlbar.autofill from true to false. I’m going to do this, but I think I’ll make another unencrypted backup copy of all my files just in case I open my doors to multitudinous evil invaders rising up from the deep vortices of cyber hell. 
 
+Hour 3: I made an unencrypted backup copy of my mac and then in Firefox used about:config to toggle the browser.urlbar.autofill from true to false. I closed my browser, reopened it, and pasted http://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire
+in the location bar. I was redirected to https://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire
+I reckon that Library of Congress doesn’t do http anymore. I got the unexpected error again. I have no idea whether the error has anything to do with encryption, but I’m glad I followed my hunch because it got me thinking about http and https. I don’t know why Chronicling America doesn’t return files with fire to my protext=fire query. The problem might be with the format=json query; Chronicling America (or Library of Congress) might be having trouble returning html as JSON. 
+
+Eeeeeeh I’m such a jerk. I just tried searching for fire by typing fire in the Chronicling America search bar. I got the same error. Argh. I tried typing great, and wall, and New York for a little variety, and love, in the search bar. Unexpected error every time. 
+
+On the basis of my methodical but unsuccessful attempts to return data on fire from Chronicling America, I conclude that Chronicling America has got a bug.
+
+Hour 4: I decided to try the parameter query in another database. I chose the British Library database of 19th century British newspapers, which I accessed through the NYPL. I typed 
+find.galegroup.com.i.ezproxy.nypl.org/bncn/start.do?prodId=BNCN&userGroupName=nypl/?format=json&proxtext=fire
+and nothing much happened. I didn’t get an error, which is nice. Hm. I decided to try another database because the query might not work in a redirect to Gale (I’m guessing wildly, I know).
+I decided to try in an archive that belongs to the NYPL. I chose the recently added Lou Reed papers 1958-2015. The url is http://archives.nypl.org/mus/24078
+I added the query parameters as so:
+http://archives.nypl.org/mus/24078/?format=json&proxtext=fire
+it worked! It worked! Wow, yay, ha! I could hardly believe my eyes when I saw the html returned to JSON. This is super exciting. Now to figure out what to do with it. 
+
+I checked to make sure fire is in the JSON I was returned. It is. We learn from the following sentence that “Pass Through Fire” is the title of a proof of a book Reed was working on:
+
+"There are additional proofs present for Reed's books, including <span class=\"title\">Between Thought and Expression</span>, <span class=\"title\">Emotions in Action</span>, <span class=\"title\">Pass Through Fire</span>,"
+
+This is the only record with fire that I found in the Lou Reed papers. This surprises me intuitively, but I will not explore further because I was only looking for fire to see if I could collect data using an API, and I could and I did so I’m happy.
+
 
 ## Week Twelve (4/11 to 4/17)
