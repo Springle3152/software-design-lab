@@ -153,9 +153,14 @@ Hour 7: tried to figure out how we could use SQL to create user accounts and/or 
 
 ## Week Eleven (4/4 to 4/10)
 
-Hour 1: I started doing the your Creating APIs with Python and Flask tutorial. The first stumbling block I ran into was an error in the Library of Congress database. I pasted http://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire
-Into my browser and got the following unexpected error: “Chronicling America has encountered an unexpected error while processing your request. The details of this error have been logged, and our troubleshooting specialists will be notified. We apologize for any inconvenience.” I wondered whether fire was a hot subject right now and had consequently been censored by the Trump administration. To find out, I tried 
+Hour 1: I started doing the your Creating APIs with Python and Flask tutorial. The first stumbling block I ran into was an error in the Library of Congress database. I pasted 
+
+http://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=fire
+
+into my browser and got the following unexpected error: “Chronicling America has encountered an unexpected error while processing your request. The details of this error have been logged, and our troubleshooting specialists will be notified. We apologize for any inconvenience.” I wondered whether fire was a hot subject right now and had consequently been censored by the Trump administration. To find out, I tried 
+
 http://chroniclingamerica.loc.gov/search/pages/results/?format=json&proxtext=wall
+
 I got the same error. I tried protext=great and protext=love (who would dare censor “love”?!) and came to the conclusion that the error was not a case of spurious underhanded censorship. I looked closely at the url that was giving me the error and compared it with the url in the tutorial. I realized that my browser was changing http to https. This must be why I’m getting the error, I thought. I looked up http and https and learned that the former is hypertext transfer protocol without a layer of security, and the latter is hypertext transfer protocol secure, which means that all communications between my browser and the website are encrypted. Damn. (at the moment I dislike encryption because I feel like my language is being taken away from me. I was recently spoken rudely to by a man in an Apple support forum because I said I was backing up my computer without encrypting. But that’s another story.) As I try to figure out a way over the stumbling block that’s stopping me from following the API with Python and Flask tutorial, I continue to think that Chronicling America is giving me an error because it uses https instead of http (maybe at the time you created the tutorial it used http). I learned that I can create a website which uses http or https, as I choose, and that I can also create a redirect that switches from https to http in my website, but if I understand right I can’t turn someone else’s website from https to http. 
 
 Hour 2: I decided I’d try to sort of replicate what your tutorial asks me to do with the Chronicling America database but using a different http database. I searched for http websites. I couldn’t find any because Firefox keeps redirecting me to https (so does Safari and Chrome). Or the pages I’m visiting all choose https. I’m no longer sure whether http turns into https because the websites I’m trying to visit don’t do http or if it’s my browser that doesn’t do http because it’s trying to protect me. Eeeargh. I haven’t gotten very far in the tutorial. 
@@ -173,11 +178,18 @@ Eeeeeeh I’m such a jerk. I just tried searching for fire by typing fire in the
 On the basis of my methodical but unsuccessful attempts to return data on fire from Chronicling America, I conclude that Chronicling America has got a bug.
 
 Hour 4: I decided to try the parameter query in another database. I chose the British Library database of 19th century British newspapers, which I accessed through the NYPL. I typed 
+
 find.galegroup.com.i.ezproxy.nypl.org/bncn/start.do?prodId=BNCN&userGroupName=nypl/?format=json&proxtext=fire
+
 and nothing much happened. I didn’t get an error, which is nice. Hm. I decided to try another database because the query might not work in a redirect to Gale (I’m guessing wildly, I know).
-I decided to try in an archive that belongs to the NYPL. I chose the recently added Lou Reed papers 1958-2015. The url is http://archives.nypl.org/mus/24078
+I decided to try in an archive that belongs to the NYPL. I chose the recently added Lou Reed papers 1958-2015. The url is 
+
+http://archives.nypl.org/mus/24078
+
 I added the query parameters as so:
+
 http://archives.nypl.org/mus/24078/?format=json&proxtext=fire
+
 it worked! It worked! Wow, yay, ha! I could hardly believe my eyes when I saw the html returned to JSON. This is super exciting. Now to figure out what to do with it. 
 
 I checked to make sure fire is in the JSON I was returned. It is. We learn from the following sentence that “Pass Through Fire” is the title of a proof of a book Reed was working on:
