@@ -196,3 +196,25 @@ This is the only record with fire that I found in the Lou Reed papers. This surp
 
 
 ## Week Twelve (4/11 to 4/17)
+
+Chris and I met to work on the wire frame for the API. We have decided that we need to build an API with SQL for the oral history web app we are developing for Thomas. It has been difficult to sit down with our client. Thomas was very busy the first week and then the weekend slipped away, so Chris and I asked if after class on Wednesday would be a good time, but Thomas said no because he was meeting with his client Rob. We settled for meeting by Skype on Sunday. The Skype meeting was excellent. We got a lot done. I was very careful to not talk too much, listen carefully, and ask open-ended questions so as to give our client room to tell us how he envisions the app he asked us to build. I learned that Thomas thinks of it as a platform where history enthusiasts – people who might want to go around the neighborhood collecting stories – can contribute to the Public History Project with their work. I learned that ideally these people should be able to upload audio, text and images. 
+
+We did the minimum viable product thing. We will need user accounts. This is necessary because people will not upload all elements of an oral history in one go. We will therefore need SQL to associate lists of fields. 
+
+Interestingly, Thomas would rather we document the app well so that our documentation will tell someone else how to set it up. Thomas does not have in mind people from the center, which creates the project, but other users who should be told clearly how to download the documentation from GitHub and how to run it on their computer. Thomas noted that we should keep in mind Windows and Mac issues. 
+
+Chris and I met on Monday to code together. 
+
+Hour 1: I tried to show Chris how to share stuff on GitHub
+
+Hour 2: I got stuck in the Flask tutorial (it ended up being a syntax error) while Chris put together the wire frame using a think called InVision which Kelly and Quinn introduced me to. 
+
+Hour 3: Chris and I helped each other work plow through the Flask tutorial. 
+
+Hour 4: I prepared materials for Kelly and Quinn. I am their client. They are building a static site for the DH in Prison course. I love working on this with them. It’s tremendously refreshing to have other eyes on this project, and another take. Kelly and Quinn are awesome. They have gotten much further on my project than Chris and I have gotten on Thomas’s project. 
+
+Hour 5: Started DHRI introduction to databases tutorial. It’s really well written.  
+
+Hour 6: DHRI intro to databases tutorial
+
+Hour 7: DHRI intro to databases tutorial
