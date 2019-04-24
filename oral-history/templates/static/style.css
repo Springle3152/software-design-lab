@@ -1,0 +1,19 @@
+h1 {  
+    color: blue;
+    font-variant-caps: all-small-caps;
+    font-size: 46px;
+}
+
+h3 {  
+  color: blue;
+  font-size: 36px;
+}
+
+li {  
+  color: blue;
+  font-size: 50px;
+}
+
+body {  
+    background:blue;
+}
