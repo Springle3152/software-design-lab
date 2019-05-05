@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Oral History</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
+    <h2> Add Oral History </h2>
+    <p> Collection Number </p>
+
+            <form action='upload.html' method='get'>
+                <p> <label for="name"> Name </label>
+                <input id="name" type="text" name="name" value="First and Last" /> </p>
+                <p> <label for="yob">Year of Birth </label>
+                <input id="yob" type="text" name="yob" value="YYYY" /> </p>
+                <p> <label for="dateofinterview"> Date of Interview </label>
+                <input id="dateofinterview" type="text" name="dateofinterview" value="DD/MM/YYYY" /> </p>
+                <p> <label for="subject"> Subject </label>
+                <input id="subject" type="text" name="subject" value="Type" /> </p>
+                <p> <label for="location"> Location </label>
+                <input id="location" type="text" name="location" value="Borough" /> </p>
+                <p> <label for="interviewername"> Interviewer Name </label>
+                <input id="interviewname" type="text" name="interviewername" value="First and Last" /> </p>
+
+                <p> Upload Interview
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data"> </p>
+
+                <p> Upload Images
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data"> </p>
+                
+                <input type="submit" />
+            </form>
+
+          {% endblock %}
+      </body>
+    </html>
+
+
