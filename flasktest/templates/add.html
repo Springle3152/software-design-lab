@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Add Oral History</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+    
+    <h2> Add Oral History </h2>
+    <p> Collection Number </p>
+
+            <form action='upload.html' method='get'>
+                <p> <label for="name"> Name </label>
+                <input id="name" type="text" name="name" value="First and Last" /> </p>
+                <p> <label for="yob">Year of Birth </label>
+                <input id="yob" type="text" name="yob" value="YYYY" /> </p>
+                <p> <label for="dateofinterview"> Date of Interview </label>
+                <input id="dateofinterview" type="text" name="dateofinterview" value="DD/MM/YYYY" /> </p>
+                <p> <label for="collection"> Collection </label>
+                <input id="Collection" type="text" name="collection" value="Collection Name" /> </p>
+                <p> <label for="Description"> Description </label>
+                <input id="Description" type="text" name="description" value="Interview Description" /> </p>
+                <p> <label for="interviewername"> Interviewer Name </label>
+                <input id="interviewname" type="text" name="interviewername" value="First and Last" /> </p>
+
+                <p> Upload Interview
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data"> </p>
+
+                <p> Upload Images
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" /> <form action="http://localhost:5000/uploader" 
+                method="POST" enctype="multipart/form-data"> </p>
+                
+                <input type="submit" />
+            </form>
+
+          {% endblock %}
+      </body>
+    </html>
+
+
