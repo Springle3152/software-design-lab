@@ -270,3 +270,5 @@ Chris and I worked many hours together, and I worked many hours alone. So many t
 I’ve been so obsessed with getting the flask app to work that I haven’t done much else. This is why I haven’t written my journal. Honestly. I couldn’t tear myself away, and then when I was too tired to code any more, I was too tired to do anything else either. Now I have to force myself to stop at some point and start writing the white paper. 
 
 I learned that I need to keep my journal as I develop, for a number of reasons, one being that I forget what I did and where I am in different versions and so on. The other being that had I kept careful notes it would be great for the purposes of writing the white paper. Having said that, I do have lots of drawings and handwritten notes in the pile of papers on my desk, but carefully kept notes – just short jottings down but methodical ones – would have been great. 
+
+I'm having a little trouble pushing to GitHub because my relationship with my repository has become a bit chaotic. I am going to try again now.
