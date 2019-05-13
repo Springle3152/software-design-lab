@@ -1,4 +1,4 @@
-# Sabina's Technical Journal
+5# Sabina's Technical Journal
 
 ## Week Two (1/30 to 2/6)
 
@@ -217,4 +217,56 @@ Hour 5: Started DHRI introduction to databases tutorial. It’s really well writ
 
 Hour 6: DHRI intro to databases tutorial
 
-Hour 7: DHRI intro to databases tutorial
+## Week Thirteen (4/18 to 4/24)
+
+Spring break. I felt that I should not write a journal entry because it was spring break and I needed to rest. I was actually far from idle; I met with Chris about three times and worked a lot on the web app we're developing for Thomas.
+
+## Week Fourteen (4/24 to 5/5)
+
+This week was partly spring break too. For the purposes of this journal I will consider this week a week that a journal entry is due, and last week spring break. 
+
+Chris and I met many times. These are some of our work sessions over the past two weeks (I’m sure I’m forgetting some):
+
+My office at CCNY, about 3 hours
+My home, about 5 hours
+New York Public Library, 4 hours and then Graduate Center, 3 hours
+NYPL, 2 hours and then GC 3 hours
+GC library 2 hours
+GC Master’s Lounge 3 hours
+GC Master’s Lounge 2 hours and Digital Fellows 2 hours
+My home, about 5 hours
+
+This is how our work progressed: we had built apps in class and kind of knew what a web app should be like and drew a diagram of how we imagined the oral history web app. However, at first we imagined it more like a website than an app. So the first thing we built was a website, kind of hoping we would be able to turn it into an app. We found a great picture of people in a grocery store and had a good time. Sabina pushed repository to GitHub. 
+
+The following week we started working with Flask. We realized that our website was going to be ditched.  We revised our drawings. Sabina showed Chris the awesome wire frame Kelly and Quinn had drawn with InVision. Chris loved it and quickly learned how to use Invision, and drew the wire frame in that. Sabina revised, made some suggestions, made a bit of a mess, and Chris made changes and then shared the wire frame with Thomas. Thomas responded positively. He’s a very easy going client.
+Chris and Sabina met with Thomas by Skype on Sunday 4/14/19. Sabina took notes. 
+Chris and Sabina met on Tuesday 4/23 and worked together for a few hours.
+Chris pushed files to GitHub and Sabina pulled. 
+Sabina got a bee in her bonnet about user accounts and logging in to access and add to collections. We decided that this would be nice but it’s not mvp. So now we just want to upload collection in one go.
+
+I had started Patrick’s tutorial – Chris had started Miguel’s. Chris had a problem installing PIP because he is on Windows. Rob gave Chris a thing to install PIP. 
+
+Chris built the app. It was super cool. 
+We knew – or thought – that we would need SQLite. 
+
+Friday 4/26 we met at NYPL. Chris managed to put a form in the app for users to add their info to. We talked about what would happen with the info users input. We decided we would need SQL. 
+
+Sabina built a database with sqlite. She entered data. Created a table for notes. Joined the two tables. She created a table for blobs, to receive audio files. The plan was to create another blob table for images. Sabina created this but it doesn’t work. See notes.
+
+We looked at Miguel’s Mega-Flask tutorial and decided that that was what we needed to learn from, because it’s a web app that creates a SQLite database, accepts information from users and serves the database back to users. We built the app happily as a microblog and Sabina got super stuck in chapter 5 user logins. She struggled with it for hours and hours and felt totally despondent because she didn’t know what she was doing wrong. She found some code a person had posted on GitHub – someone who had done Miguel’s Mega Flask tutorial – and copied some of that code, and at last got the web app to work. Sabina and Chris were thrilled. The problem was, we were building a microblog, not an oral history app. Sabina felt strongly that this could be adapted, but Chris told Sabina that they were on the wrong track and should stop following the Flask Mega-Tutorial. Sabina saw his point and agreed to change development strategy. Chris wanted to focus on the front end. Sabina said that there was no point in focusing on the front end, the front end didn’t matter, the important thing was making the app work. Chris saw her point and agreed to stop focusing on the front end. 
+
+Chris and Sabina met with Thomas by Skype on 4/28/19. Thomas said that the front end was important to him and that he would be happy if Chris and Sabina only did that. Sabina felt sheepish because she had told Chris not to bother with the front end. 
+
+When Chris and Sabina met with digital fellow Rafa the following week (see journal entry for week fifteen) Rafa said they should use Flask. Chris felt sheepish because he had told Sabina to stop struggling with Flask. 
+
+Working with Chris is great. I feel really comfortable with him, and we communicate easily, laugh at ourselves and give each other lots of support. It’s a really easy partnership, as if we had known each other for a long time. 
+
+## Week Fifteen (5/6 to 5/15)
+
+Went to see Rafa in Digital Fellows office hours. Rafa thought that Flask was the way to go after all. We agreed that we are going to try to focus on the first part of what the oral history app is supposed to do, which is collecting information. We agreed to work on collecting the basic interviewee information in the add page, and maybe tell Thomas that the next steps will be figuring out how to upload files and so on. We’re going to try to save information put into form as a text file. Rafa suggested that we use Flask to save input from form into a text file, and then figure out what to do with the text file.
+
+Chris and I worked many hours together, and I worked many hours alone. So many that I have lost count. I know that this weekend alone I must have done 20 hours of Flask. I created six web apps, because I kept breaking all the code, because I tried to change fields in the microblog so that it would be more like how we envisioned the oral history app, but the problem is that all the extensions that I install in Flask create lots of files which take the names that I designated early on, so when I change names of things afterwards, my code breaks and I get server errors which drive me nuts. Now I’m doing well; I’ve got much further than ever before because I’m being a lot less ambitious in what I’m changing in Miguel’s Microblog – mostly only changing things in quotation marks and adapting the design of the web app to the design of the microblog, which is not a great design strategy but the only one I have now at my command. I feel like I do it this way or I don’t do it, on account of time constraints. Besides, it’s a great learning experience. 
+
+I’ve been so obsessed with getting the flask app to work that I haven’t done much else. This is why I haven’t written my journal. Honestly. I couldn’t tear myself away, and then when I was too tired to code any more, I was too tired to do anything else either. Now I have to force myself to stop at some point and start writing the white paper. 
+
+I learned that I need to keep my journal as I develop, for a number of reasons, one being that I forget what I did and where I am in different versions and so on. The other being that had I kept careful notes it would be great for the purposes of writing the white paper. Having said that, I do have lots of drawings and handwritten notes in the pile of papers on my desk, but carefully kept notes – just short jottings down but methodical ones – would have been great. 
