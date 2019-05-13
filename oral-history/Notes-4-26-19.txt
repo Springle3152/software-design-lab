@@ -1,0 +1,39 @@
+This is the code I used to create the db with sqlite
+
+/Users/sabinapringle/Desktop/projects/software-design-lab/oral-history/templates/database
+Sabinas-MacBook-Pro:database sabinapringle$ sqlite3
+SQLite version 3.24.0 2018-06-04 19:24:41
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open collections-v1db.sqlite
+sqlite> CREATE TABLE collections (
+   ...> id INTEGER PRIMARY KEY,
+   ...> collection_number VARCHAR
+   ...> );
+
+   dammit I got an error:
+
+Sabinas-MacBook-Pro:database sabinapringle$ sqlite3
+SQLite version 3.24.0 2018-06-04 19:24:41
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open collections-v1db.sqlite
+sqlite> CREATE TABLE collections (
+   ...> id INTEGER PRIMARY KEY,
+   ...> collection_number VARCHAR
+   ...> );
+sqlite> INSERT INTO collections (collection_number) VALUES
+   ...> ("Collection No.")
+   ...> ("Name")
+   ...> ("Year of Birth")
+   ...> ("Date of Interview")
+   ...> ("Subject")
+   ...> ("Borough")
+   ...> ("Interviewer Name");
+Error: near "(": syntax error
+sqlite> .mode column
+sqlite> .headers on
+sqlite> select * from collections;
+sqlite> 

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - Oral History App V2</title>
+        {% else %}
+        <title>Welcome to the Oral History App</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>
+            Oral History App: 
+            <a href="/index">Home</a>
+            <a href="/login">Login</a>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
