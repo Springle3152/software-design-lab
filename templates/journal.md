@@ -228,13 +228,22 @@ This week was partly spring break too. For the purposes of this journal I will c
 Chris and I met many times. These are some of our work sessions over the past two weeks (I’m sure I’m forgetting some):
 
 My office at CCNY, about 3 hours
+
 My home, about 5 hours
+
 New York Public Library, 4 hours and then Graduate Center, 3 hours
+
 NYPL, 2 hours and then GC 3 hours
+
 GC library 2 hours
+
 GC Master’s Lounge 3 hours
+
 GC Master’s Lounge 2 hours and Digital Fellows 2 hours
+
 My home, about 5 hours
+
+Wow, that's 34 hours. I know we worked more than that; then there are the hours I worked alone. I really should have kept better track.
 
 This is how our work progressed: we had built apps in class and kind of knew what a web app should be like and drew a diagram of how we imagined the oral history web app. However, at first we imagined it more like a website than an app. So the first thing we built was a website, kind of hoping we would be able to turn it into an app. We found a great picture of people in a grocery store and had a good time. Sabina pushed repository to GitHub. 
 
